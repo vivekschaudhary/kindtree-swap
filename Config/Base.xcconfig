@@ -1,0 +1,5 @@
+PRODUCT_BUNDLE_IDENTIFIER = com.kindtree.swap
+PRODUCT_NAME = KindTreeSwap
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 6.0
+// "//" starts a comment in xcconfig, so URLs are written as https:/$()/host
