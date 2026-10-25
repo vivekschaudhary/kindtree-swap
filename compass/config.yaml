@@ -1,0 +1,4 @@
+# Read by the Compass orchestrator before it opens a pull request on this repo.
+checks:
+  - swift test --package-path Packages/KindTreeKit
+  - xcodebuild -project KindTreeSwap.xcodeproj -scheme KindTreeSwap -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build
